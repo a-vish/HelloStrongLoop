@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDB_Localhost": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "dishTv",
+    "name": "MongoDB_Localhost",
+    "connector": "mongodb"
+  }
+}
