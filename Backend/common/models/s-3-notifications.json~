@@ -1,11 +1,49 @@
 {
   "name": "S3Notifications",
   "base": "PersistedModel",
-  "idInjection": true,
+  "strict": false,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+	"Message": {
+      "type": "string",
+      "required": true
+    },
+    "MessageId": {
+      "type": "string",
+      "required": true
+    },
+    "SignatureVersion": {
+      "type": "string",
+      "required": true
+    },
+    "SigningCertURL": {
+      "type": "string",
+      "required": true
+    },
+    "Subject": {
+      "type": "string",
+      "required": true
+    },
+    "Timestamp": {
+      "type": "string",
+      "required": true
+    },
+    "TopicArn": {
+      "type": "string",
+      "required": true
+    },
+    "Type": {
+      "type": "string",
+      "required": true
+    },
+    "UnsubscribeURL": {
+      "type": "string",
+      "required": true
+    }
+},
   "validations": [],
   "relations": {},
   "acls": [],
